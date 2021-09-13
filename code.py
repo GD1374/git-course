@@ -1,10 +1,12 @@
-import os 
+import os
+
 
 def welcome():
     print('-------------')
     print('Developer: Mahdi Malekifard')
     print('status: junior')
     print('-------------')
+
 
 def clean_screen():
     os.system('cls')
@@ -14,7 +16,7 @@ def get_input():
     my_list = []
     while True:
         nums_for_list = int(input('Enter a number: '))
-        if  nums_for_list == 0:
+        if nums_for_list == 0:
             break
         my_list.append(nums_for_list)
         print(my_list)
